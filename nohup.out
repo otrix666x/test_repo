@@ -1,0 +1,421 @@
+2021-07-25 23:36:26,678 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: inline keyboard button URL is invalid"
+2021-07-25 23:36:33,589 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: inline keyboard button URL is invalid"
+2021-07-25 23:37:58,363 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: inline keyboard button URL is invalid"
+2021-07-25 23:38:10,289 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: inline keyboard button URL is invalid"
+2021-07-25 23:38:34,291 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: inline keyboard button URL is invalid"
+2021-07-25 23:40:57,413 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: inline keyboard button URL is invalid"
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 127, in main_message
+    freezy_bot = cur.fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+2021-07-25 23:41:22,370 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found"
+2021-07-26 17:36:26,645 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: inline keyboard button URL is invalid"
+2021-07-26 17:36:39,361 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: inline keyboard button URL is invalid"
+2021-07-26 17:36:57,894 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: inline keyboard button URL is invalid"
+2021-07-26 17:37:00,792 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: inline keyboard button URL is invalid"
+2021-07-26 17:37:45,376 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: inline keyboard button URL is invalid"
+2021-07-26 17:38:49,606 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: inline keyboard button URL is invalid"
+2021-07-26 17:39:17,696 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: inline keyboard button URL is invalid"
+2021-07-26 17:55:27,104 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found"
+2021-07-26 18:16:26,861 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found"
+2021-07-26 18:18:17,448 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found"
+2021-07-26 18:30:02,956 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found"
+0 RUB EUR
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1516, in stavka
+    photo = open(imglink,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'images/AMAZON.jpg'
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1516, in stavka
+    photo = open(imglink,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'images/AMAZON.jpg'
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1516, in stavka
+    photo = open(imglink,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'images/AMAZON.jpg'
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1516, in stavka
+    photo = open(imglink,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'images/AMAZON.jpg'
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1516, in stavka
+    photo = open(imglink,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'images/AMAZON.jpg'
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1516, in stavka
+    photo = open(imglink,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'images/BITCOIN.jpg'
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1516, in stavka
+    photo = open(imglink,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'images/BITCOIN.jpg'
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1567, in stavka
+    for i in curr_data:
+TypeError: 'NoneType' object is not iterable
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1529, in stavka
+    for i in compani_data:
+TypeError: 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1516, in stavka
+    photo = open(imglink,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'images/DOGE.jpg'
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1516, in stavka
+    photo = open(imglink,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'images/NEWMONT.jpg'
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1516, in stavka
+    photo = open(imglink,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'images/DOGE.jpg'
+2021-07-26 19:15:02,936 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found"
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1516, in stavka
+    photo = open(imglink,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'images/NEWMONT.jpg'
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1516, in stavka
+    photo = open(imglink,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'images/CARDANO.jpg'
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1516, in stavka
+    photo = open(imglink,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'images/CARDANO.jpg'
+2021-07-26 19:54:10,067 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found"
+2021-07-26 20:56:53,886 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found"
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1516, in stavka
+    photo = open(imglink,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'images/BITCOIN.jpg'
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1516, in stavka
+    photo = open(imglink,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'images/BITCOIN.jpg'
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1516, in stavka
+    photo = open(imglink,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'images/AMAZON.jpg'
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 639, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 130, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "bot.py", line 1529, in stavka
+    for i in compani_data:
+TypeError: 'NoneType' object is not iterable
+2021-07-27 03:31:12,043 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway"
+12413.69 BYN UAH
+2021-07-27 03:31:12,532 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway"
+2021-07-27 03:31:12,934 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 502. Description: Bad Gateway"
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1344, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 400, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 703, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 423, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 330, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "bot.py", line 2556, in <module>
+    bot.polling()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 617, in polling
+    self.__threaded_polling(none_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 676, in __threaded_polling
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 638, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 100, in raise_exceptions
+    raise self.exception_info
+  File "/usr/local/lib/python3.8/dist-packages/telebot/util.py", line 82, in run
+    task(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 388, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), 
+  File "/usr/local/lib/python3.8/dist-packages/telebot/__init__.py", line 361, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 312, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/usr/local/lib/python3.8/dist-packages/telebot/apihelper.py", line 139, in _make_request
+    result = _get_req_session().request(
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+2021-07-27 20:50:27,480 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found"
+2021-07-27 22:30:47,594 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found"
+2021-07-27 23:47:11,994 (__init__.py:647 MainThread) ERROR - TeleBot: "A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found"
