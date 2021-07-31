@@ -1545,7 +1545,7 @@ def stavka(message):
         #if 
 
         img = f'{message.text}.jpg'
-        imglink = f'images/{img}'
+        imglink = f'images\{img}'
         photo = open(imglink,'rb')
         
         bot.send_photo(message.chat.id,photo,caption=vybor(lang(message.chat.id),message.text,minstavka_rub,minstavka_uah,minstavka_eur,minstavka_usd,minstavka_byn,minstavka_pln,get_user(message.chat.id)[4],get_user(message.chat.id)[8]),reply_markup=cancel(lang(message.chat.id)))
@@ -2614,5 +2614,5 @@ if __name__ == '__main__':
             print(extract_tb(exc_info()[2])[0][1])
             print(e)
             bot.send_message(coder, f"Произошла ошибка {e}\n"\
-                "Обратитесь к кодера @jambo_squirt")
+                "Обратитесь к кодеру @jambo_squirt")
             time.sleep(5)
